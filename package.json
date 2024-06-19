@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed": "node -r dotenv/config ./scripts/seed.js"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
@@ -20,7 +21,7 @@
     "dotenv": "^16.4.5",
     "eslint-config-prettier": "^9.1.0",
     "next": "14.2.4",
-    "next-auth": "^4.24.7",
+    "next-auth": "^5.0.0-beta.19",
     "prettier": "^3.3.2",
     "prettier-plugin-tailwindcss": "^0.6.5",
     "react": "^18",
